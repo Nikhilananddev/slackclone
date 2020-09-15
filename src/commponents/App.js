@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
+import { SignIn } from "./";
 
 function Home() {
   return <div>Home</div>;
@@ -9,7 +10,6 @@ function Some() {
   return <div>Some</div>;
 }
 
-import { SignIn } from "./";
 class App extends Component {
   render() {
     return (
